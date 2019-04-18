@@ -1,0 +1,116 @@
+body {
+    background-image: url(fon31.jpg); 
+}
+.bezfon {
+    background: none;
+}
+.nav {
+    display: block;
+    background: rgba(230, 101, 223, 0.699);
+}
+.nav .menu {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align: center;
+    list-style: none outside none; 
+}
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    font: size 20px; 
+    font-weight:600;
+    line-height: 40px; 
+}
+.nav li a {
+    display: block; 
+    height: 100%;
+    padding: 6px 10px; 
+    color: rgba(139, 14, 45, 0.911);
+    text-decoration: none;
+ }
+.nav li:hover a {
+    background: rgba(0, 0, 0,.3)
+}
+h1 {
+    font-style: normal;
+    font-size: 230%;
+    color: rgb(127, 180, 72);
+text-decoration: overline; 
+text-decoration: blink;
+text-align: center;
+font-weight: bolder;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-weight: lighter
+}
+h3{
+    color: rgba(180, 85, 22, 0.788);
+    text-align: center;
+}
+.levo {
+   float: left;
+   width:25%; 
+}
+.pravo {
+    float: left;
+    width: 53%;
+}
+.menulevo {
+    float: right; 
+    width: 20%;
+}
+.menulevo li a {
+    text-decoration: none;
+}
+.menulevo li {
+    border-radius: 10px;
+    border: 4px double white;
+    background:rgb(189, 128, 92);
+    color: white;
+    line-height: 2;
+    text-align: center;
+    font-weight: bolder;
+}
+.navlevo .menu2 {
+list-style: none outside none;
+}
+.nus {
+    background: rgba(236, 7, 225, 0.781);
+    text-align: center;  
+    height: 30px;
+    clear: both; 
+    
+}
+.persona {
+    width: 23%;
+    background: rgb(189, 128, 92);
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+.persona p {
+    text-align: center;
+}
+.persona h4 {
+    text-align: center;
+    margin-bottom: -15px;
+}
+.ax {
+    width: 80%;
+    float: left;
+}
+.text {
+    text-align: justify;
+    width: 80%;
+    float: left;
+    overflow: hidden;
+    display: block;
+}
+.bzpravo {
+    float: right
+}
